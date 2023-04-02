@@ -1,0 +1,737 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family:"open sans",sans-serif;
+}
+#header{
+    border: 1px solid black;
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-logo{
+    width: 10%;
+    
+}
+.nav-logo-img{
+    width: 80%;
+    /* height: 13vh; */
+    margin-left: 1vw;
+    background-color: #120a78;
+    background-repeat: no-repeat;
+    padding-bottom: 2px;
+
+}
+
+.shape_one
+{
+    width: 8%;
+    padding-left: 104px;
+}
+.nav-logo-care-img{
+    margin: 2vh 0 0 2.5vw;
+    width: 33%;
+}
+.nav-logo-img-content{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.triangle-div{
+    width: 4%;
+    height: 0;
+    border-left: 54px solid transparent;
+    border-right: 49px solid transparent;
+    border-top: 47px solid #120a78;
+    margin-top: -0.8vh;
+}
+.logo-img{
+    width: 36%;
+}
+.nav-logo-triangle-div{
+    width: 100%;
+    height: 0;
+    border-left: 54px solid transparent;
+    border-right: 49px solid transparent;
+    border-top: 47px solid #120a78;
+    margin-top: 0.2vh;
+}
+#headElements{
+    width: 43%;
+    padding: 2.5% 0 0 0;
+}
+#headElements ul{
+    /* font-size: 0.7em; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#headElements ul li{
+    font-size: 0.7rem;
+    list-style-type: none;
+}
+#donateBtn{
+    padding: 1% 0 0 1%;
+}
+#helpPoor{
+    background-image: url('./Assets/trevor-cole-CWcAsKuhwy0-unsplash.svg');
+    /* height: 97vh; */
+    background-size: 100% 100%;
+    background-color: black;
+    /* opacity: 0.7; */
+    background-repeat: repeat;
+}
+#poorChildContent{
+    width: 70%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.poorChildContent-heading{
+    font-size: 27px;
+    text-align: center;
+    padding: 7% 0 0 0;
+}
+.ReadMore{
+    padding: 3vh 7vh;
+    background-color: #f64646;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-top: 3vh;
+}
+#contactInfo{
+    width: 60%;
+    /* height: 38vh; */
+    margin: 14vh 0 0 20vw;
+    background-color: white;
+    text-align: center;
+    border: 1px solid;
+    padding-bottom: 7px;
+}
+#contactInfo h2{
+    font-size: 20px;
+    padding: 1vh;
+}
+input{
+    padding: 2vh 3vw;
+    box-shadow: 2px 2px 8px grey;
+    margin-top: 2vh;
+    border: none;
+}
+.sendBtn{
+    padding: 2vh 4vw;
+    margin-top: 3vh;
+    background-color: #120a78;
+    color: white;
+    border: none;
+}
+#pointedDivs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 7vw 20vw;
+    border: 1px solid;
+    width: 60%;
+    justify-content: space-between;
+}
+.pointed_content
+{
+    border: 2px solid;
+    width: 30%;
+}
+.triangleDiv{
+        background-color: #120a78;
+    width: 100%;
+    /* height: 40.7vh; */
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+}
+.triangleDiv-second{
+    background-color: #f64646;
+    width: 100%;
+    /* height: 41vh; */
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+    margin-left: 0vw;
+}
+.triangleDiv-third{
+    background-color: #120a78;
+    width: 100%;
+    /* height: 39.7vh; */
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+    margin-left: 0vw;
+}
+.hand-raise{
+    width: 28%;
+    margin:3vh 0 0 0;
+}
+.fund-raise{
+    width: 28%;
+    margin:3vh 0 0 0;
+}
+.money-bag{
+    width: 22%;
+    margin:3vh 0 0 0;
+}
+.join-btn{
+    background-color: #120a78;
+    color: white;
+    padding: 1.5vh 5vh;
+    margin: 4vh 0 0 0.5vw;
+    border-color: white;
+}
+.join-BTN{
+    background-color: #f64646;
+    color: white;
+    padding: 1.5vh 5vh;
+    margin: 4vh 0 0 0.5vw;
+    border-color: white;
+}
+.triangle-card{
+    width: 100%;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #120a78;
+}
+.shape-first{
+    width: 100%;
+}
+#aboutCharity{
+    background-color: #120a78;
+    padding-bottom: 45px;
+}
+.about-content{
+    width: 61%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+#CharityContent{
+    color: white;
+    font-size: 2vh;
+    line-height: 4vh;
+    padding-top: 92px;
+    width: 85%;
+}
+.about-img{
+    width: 88%;
+    margin: 12vh 0 0 5.5vw;
+}
+.Charity-para{
+    margin-top: 5vh;
+}
+#aboutCharity-ReadMore{
+    padding: 2vh 2vw;
+    background-color: #120a78;  
+    color: white;
+    border-color: white;
+    margin-top: 7vh;
+}
+.mission-cause{
+    width: 100%;
+}
+.mission-heading {
+    width: 45%;
+    font-size: 1vw;
+    margin: 9vh 0 0 24vw;
+}
+.TwoImgs{
+    width: 70%;
+    display: flex;
+}
+#imgTop{
+    margin: 4% 0 0 24%;
+    width: 60%;
+}
+.image-one{
+    width: 48%;
+}
+.image-two{
+    width: 49%;
+    margin-left: 2vw;
+}
+#imgMid{
+    margin: 2% 0 0 11%;
+    width: 60%;
+}
+.image-three{
+    width: 48%;
+}
+.image-four{
+    width: 51%;
+    margin-left: 2vw;
+}
+#imgBottom{
+    margin: 2% 0 0 27%;
+    width: 60%;
+}
+.image-five{
+    width: 44%;
+}
+.image-six{
+    width: 49%;
+    margin-left: 2vw;
+}
+.featuredCause{
+    border: 1px solid black;
+    width: 100%;
+}
+.featureCause-heading{
+    width: 45%;
+    font-size: 1vw;
+    margin: 9vh 0 0 24vw;
+}
+.feature-content{
+    width: 70%;
+    margin: 5vh 0 0 24%;
+    display: flex;
+}
+#imgGirl{
+    width: 40%;
+    border-top: 10px solid #f64646;
+    border-left: 10px solid #f64646;
+    border-bottom: 12px solid #f64646;
+}
+#featureCauseContent{
+    width: 40%;
+    font-size: 1vw;
+    line-height: 4vh;
+    margin: 3vh 0 0 2vw;
+}
+.feature-img{
+    width: 100%;
+    height: 56vh;
+}
+.RaisedGaol{
+    display: flex;
+    margin-top: 3vh;
+}
+.raise{
+    color: #120a78;
+}
+.goal{
+    color: #f64646;
+    margin-left: 3vw;
+}
+.feature-read-btn{
+    padding:2vh 2vw;
+    margin-top: 2vh;
+    background-color: #120a78;
+    color: white;
+    
+}
+.feature-donate-btn{
+    padding:2vh 2vw;
+    background-color: #f64646;
+    margin-left: 1vw;
+    color: white;
+}
+#upcomingEvents{
+    width: 100%;
+}
+.events-heading{
+    width: 45%;
+    font-size: 1vw;
+    margin: 9vh 0 0 24vw;
+}
+.event-date-div{
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 6vh;
+    margin-top: 16vh;
+    background-color: #f64646;
+    color: white;
+}
+.event-month-div{
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 6vh;
+    background-color: #120a78;
+    color: white;
+}
+.students{
+    display: flex;
+    width: 70%;
+    margin: 5vh 0 0 24%;
+}
+.Students{
+    display: flex;
+    width: 70%;
+    margin: -1vh 0 0 24%;
+}
+.studentImg{
+    width: 29%;
+    height: 40vh;
+    background-image: url('./Assets/santi-vedri-O5EMzfdxedg-unsplash.png');
+    background-size: 132% 124%;
+}
+.StudentImg{
+    width: 29%;
+    height: 42vh;
+    background-image: url('./Assets/jeshoots-com-LKREcvZeoJQ-unsplash copy (1).svg');
+    background-size: 132% 124%;
+    margin-top: -2vh;
+}
+.upCommingEvnetContent{
+    margin: 3vh 0 0 2vw;
+    font-size: 2.1vh;
+    line-height: 4vh;
+    width: 50%;
+}
+.UpCommingEvnetContent{
+    margin: 6vh 0 0 2vw;
+    font-size: 2.1vh;
+    line-height: 4vh;
+    width: 50%;
+}
+#donatePeople{
+    border: 1px solid black;
+    width: 100%;
+    padding-bottom: 112px;
+    background-image: url('./Assets/amevi-wisdom-wiUl_NyafcY-unsplash.png');
+    background-size: 100% 124%;
+    /* display: flex; */
+}
+#donatePeople h2{
+    color: white;
+    margin: 7vh 0 0 36vw;
+}
+.reviews-opacity{
+    width: 100%;
+    /* height: 80vh; */
+    border: 1px solid black;
+    background-color: #120a78;
+    margin-top: 10vh;
+}
+/* .forward-arrow{
+    width: 80%;
+    height: 12vh;
+    margin-top:20vh;
+    background-color: #120a78;
+    color: white;
+}
+.backward-arrow{}
+
+
+    width: 80%;
+    height: 12vh;
+    background-color: #f64646;
+    color: white;
+} */
+#Mardko{
+    width: 54%;
+    padding-bottom: 63px;
+    border: 1px solid white;
+    margin: 17vh 0 0 22vw;
+    display: flex;
+}
+#profile{
+    width: 57%;
+    margin-top: 12vh;
+}
+.reviewer{
+    width: 20%;
+    /* margin-top: 4vh; */
+    margin: 0 0 0 2vw;
+}
+#MardoContent{
+    /* border: 1px solid; */
+    width: 77%;
+    color: white;
+    margin: 12vh 0 0 -20vw;
+    font-size: 2vh;
+    line-height: 4vh;
+}
+.footer{
+    border: 1px solid black;
+    width: 100%;
+    /* height: 65vh; */
+    background-color: #222122;
+    /* justify-content: space-around; */
+    padding-bottom: 45px;
+}
+.footer-content{
+    display: flex;
+}
+.footer-logo{
+    /* border: 1px solid white; */
+    width: 10%;
+    margin:15vh 0 0 15vw;
+    height: 30vh;
+}
+.logo-img{
+    width: 80%;
+    height: 17vh;
+    margin-left: 1vw;
+    background-color: #120a78;
+    /* background-image: url('./assets/care.svg'); */
+    background-repeat: no-repeat;
+}
+.logo-care-img{
+    margin: 2vh 0 0 2vw;
+    width: 50%;
+}
+.logo-img-content{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.logo-triangle-div{
+    width: 6%;
+    height: 0;
+    border-left: 54px solid transparent;
+    border-right: 49px solid transparent;
+    border-top: 47px solid #120a78;
+    margin-top: 0.5vh;
+}
+.footer-navigation{
+    /* border: 1px solid white; */
+    width: 20%;
+    height: 30vh;
+    margin: 15vh 0 0 2vw;
+}
+.footer-navigation-head{
+    font-size: 18px;
+    color: white;
+    margin-left: 2vw;
+}
+.navigation-list-first{
+    margin:4vh 0 0 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-list-first ul li {
+    color: grey;
+}
+.navigation-list-first ul li::before{
+    content:"\2022";
+    color:#f64646;
+    padding:10px;
+    font-weight: bold;
+}
+.navigation-list-first ul{
+    list-style: none;
+}
+.footer-news{
+    /* border: 1px solid white; */
+    width: 17%;
+    height: 30vh;
+    margin: 15vh 0 0 3vw;
+}
+.footer-news-head{
+    font-size: 18px;
+    color: white;
+    margin-left: 2vw;
+}
+.footer-news-desc{
+    color: grey;
+    font-size: 15px;
+    margin: 3vh 0 0 1vw;
+    line-height: 25px;
+}
+.footer-address{
+    /* border: 1px solid white; */
+    width: 15%;
+    height: 30vh;
+    margin: 15vh 0 0 2vw;
+}
+.footer-address-head{
+    font-size: 18px;
+    color: white;
+    margin-left: 2vw;
+}
+.footer-address-desc{
+    color: grey;
+    font-size: 15px;
+    margin: 3vh 0 0 1vw;
+    line-height: 25px;
+}
+.footer-info{
+    /* border: 1px solid white; */
+    width: 78%;
+    height: 18vh;
+    margin: -5vh 0 0 16vw;
+}
+.email-info{
+    margin:-6vh 0 0 13vw;
+}
+.email-info span{
+    color: #f64646;
+    margin-left: -6vw;
+    font-size: 15px;
+}
+.email{
+    padding: 10px 15px;
+    width: 75%;
+    background-color: #222122;
+    color: white;
+    border-right: none;
+}
+.document-info{
+    color: grey;
+    margin: 5vh 0 0 20vw;
+    font-size: 15px;
+}
+.icon{
+    width: 1%;
+    margin-top: 5vh;
+}
+.icon-tweet{
+    width: 2%;
+    margin-left: 7px;
+}
+.icon-insta{
+    width: 2%;
+    margin-left: 7px;
+}
+.icon-logo{
+    width: 2%;
+}
+@media screen and (min-device-width: 355px)and (max-device-width:557px){
+
+    /* header section */
+
+    /* #headElements{
+        display: none;
+    } */
+    .nav-logo-img{
+        display: none;
+    }
+    #icon{
+        display: none;
+    }
+    #donateBtn{
+        display: none;
+    }
+    /* head */
+
+    .shape_one {
+       display: none;
+    }
+
+    #poorChildContent {
+        width: 96%;
+        margin: auto;
+        color: white;
+        text-align: center;
+        padding-bottom: 64px;
+    
+    }
+    .ReadMore {
+        padding: 2vh 7vh;
+        background-color: #f64646;
+        color: white;
+        border: none;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    .poorChildContent-heading {
+        font-size: 23px;
+        text-align: center;
+        padding: 4% 0 0 0;
+    }
+    #contactInfo {
+        width: 88%;
+        /* height: 38vh; */
+        margin: 14vh 0 0 6vw;
+        background-color: white;
+        text-align: center;
+        border: 1px solid;
+        padding-bottom: 7px;
+    }
+    #contactInfo h2 {
+        font-size: 26px;
+        padding: 1vh;
+    }
+    input {
+        padding: 2vh 3vw;
+        box-shadow: 2px 2px 8px grey;
+        margin-top: 2vh;
+        border: none;
+        width: 84%;
+    }
+    .sendBtn {
+        padding: 2vh 4vw;
+        margin-top: 3vh;
+        background-color: #120a78;
+        color: white;
+        border: none;
+        width: 41%;
+    }
+    /* pointed section  */
+    #pointedDivs {
+        display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 7vw 6vw;
+    border: 1px solid;
+    width: 87%;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+    .pointed_content {
+        border: 2px solid;
+        width: 100%;
+    }    
+    .about-content {
+        width: 96%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-direction: column;
+    }
+    #CharityContent {
+        color: white;
+        font-size: 2vh;
+        line-height: 4vh;
+        padding-top: 68px;
+        width: 96%;
+        text-align: justify;
+    }
+    #aboutCharity-ReadMore {
+        padding: 2vh 2vw;
+        background-color: #120a78;
+        color: white;
+        border-color: white;
+        margin-top: 4vh;
+        width: 42%;
+        margin-left: 90px;
+    }
+    .about-img {
+        width: 88%;
+        margin: 4vh 0 0 5.5vw;
+    }
+    /* mission  */
+    .mission-heading {
+        width: 100%;
+        font-size: 6vw;
+        margin: 3vh 0 0 0vw;
+        border: 1px solid red;
+        text-align: center;
+    }
+    missionCause p 
+    {
+        font-size: 2vh;
+    }
+
+     /* importan */
+    .goal {
+        color: #f64646;
+        margin-left: -33vw;
+    }
+
+    .footer-address-desc {
+        color: grey;
+        font-size: 15px;
+        margin: 3vh 0 0 -10vw;
+        line-height: 25px;
+    }
+}
