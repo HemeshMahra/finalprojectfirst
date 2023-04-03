@@ -23,7 +23,7 @@
 
         <div id="header">
 
-             <!-------------------------------------- doni charity div -------------------------------------------->
+             <!--------------------------------------- doni charity div -------------------------------------->
              <div class="nav-logo">
                 <div class="nav-logo-img">
                     <img src="./assets/care.svg" class="nav-logo-care-img">
@@ -49,10 +49,26 @@
                     </div>
                 </ul>
                 
-                <i class="fa-solid fa-bars fa-lg " id="hidefa" onclick=toggle()></i>
+                <!-- <i class="fa-solid fa-bars fa-lg " id="hidefa" onclick=toggle()></i> -->
             </div>
 
-            <div id="phoneview">
+            <div class="toggle">
+                <label for="checkbox"><img src="./Assets/tog.png" class="tog"></label>
+                <input type="checkbox" id="checkbox">
+                <div class="menu">
+                    <ul>
+                        <li>HOME</li>
+                        <li>ABOUT</li>
+                        <li>DONATE</li>
+                        <li>NEWS</li>
+                        <li>CONTACT US</li>
+                        <li>OUR MISSION</li>
+                    </ul> 
+                </div>
+
+            </div>
+
+            <!-- <div id="phoneview">
                 <i class="fa-solid fa-bars fa-lg" id="showfa" onclick=toggletwo()></i>
                 <ul>
                     <li>HOME</li>
@@ -61,8 +77,8 @@
                     <li>NEWS</li>
                     <li>CONTACT US</li>
                     <li>OUR MISSION</li>
-                </ul>
-            </div>
+                </ul> 
+            </div> -->
 
 
             <div id="iconAndButton">
@@ -87,10 +103,12 @@
                     <h1>CHILD</h1>
                 </div>
                 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed repudiandae veritatis obcaecati
-                   aliquam doloremque.
-                </p>
-                <p>you are going</p>
+                <div class="poorChildContent-para">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sed repudiandae veritatis obcaecati
+                    aliquam doloremque.
+                    </p>
+                    <p>you are going</p>
+               </div>
 
                 <button class="ReadMore" id="poorChild-ReadMore">READ MORE</button>
             </div>
@@ -183,7 +201,7 @@
         </div>
 
         <!--------------------------------------- MISSION CAUSE ------------------------------------->
-        <div id="missionCause">
+        <div id="missionCause animation">
             <div class="mission-heading">
                 <h3>MISSION CAUSES</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore suscipit eos</p>
@@ -210,7 +228,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore suscipit eos</p>
             </div>
 
-            <div class="feature-content">
+            <div class="feature-content animation">
                 <div id="imgGirl">
                     <img src="./Assets/jerry-wang-0qmXPnZKeLU-unsplash.png" class="feature-img">
                 </div>
@@ -244,7 +262,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore suscipit eos</p>
             </div>
 
-            <div class="students">
+            <div class="students animation">
                 <div class="studentImg">
                     <div class="event-date-div">
                         <p class="content">01</p>
@@ -253,7 +271,7 @@
                         <p class="content">Feb</p>
                       </div> 
                 </div>
-                <div class="upCommingEvnetContent">
+                <div class="upCommingEvnetContent animation">
                     <h3>THE INTERNET TEND TO REPEAT </h3>
                     <p>variation of passage of Lorem ipsum available,but suffered  to this event</p>
                     <p>electronic typesetting, remaining unchanged responsive to website.</p>
