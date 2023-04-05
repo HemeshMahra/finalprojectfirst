@@ -4,7 +4,6 @@
 }
 body{
     font-family:"open sans",sans-serif;
-    overflow-x: hidden;
 }
 /*----------------------------------------------header section---------------------------------------------- */
 #header{
@@ -21,15 +20,9 @@ body{
         display: none;
         position: absolute;
         width: 100%;
-        height: 36vh;
+        height: 42vh;
         z-index: 1;
     }
-/* #phoneview{
-    display: none;
-}
-#hidefa{
-    display: none;
-} */
 .headElements{
     display: none;
 }
@@ -151,7 +144,7 @@ body{
     font-size: 20px;
     padding: 1vh;
 }
-input{
+.contactDonation{
     padding: 2vh 3vw;
     box-shadow: 2px 2px 8px grey;
     margin-top: 2vh;
@@ -465,7 +458,7 @@ input{
     width: 50%;
 }
 .UpCommingEvnetContent{
-    margin: 6vh 0 0 4%;
+    margin: 1vh 0 0 4%;
     font-size: 2.1vh;
     line-height: 4vh;
     width: 50%;
@@ -553,11 +546,17 @@ input{
     flex-wrap: wrap;
 }
 .logo-img {
-    width: 80%;
+    width: 88%;
     height: 17vh;
     margin-left: 1vw;
     background-color: #120a78;
     background-repeat: no-repeat;
+}
+.logo-triangle-div {
+    border-left: 57px solid transparent;
+    border-right: 57px solid transparent;
+    border-top: 36px solid #120a78;
+    margin: 1.4vh 0 0 0vh;
 }
 .logo-care-img{
     margin: 2vh 0 0 2vw;
@@ -622,10 +621,10 @@ input{
     line-height: 25px;
 }
 .footer-info {
-    width: 100%;
+    width: 81%;
     height: 18vh;
     display: flex;
-    margin: 0vh 0 0 15%;
+    margin: 0vh 0 0 16%;
 }
 .email-info {
     width: 55%;
@@ -638,6 +637,7 @@ input{
 .footer-email{
     padding: 10px 15px;
     width: 75%;
+    margin-left: 7%;
     background-color: #222122;
     color: white;
     border-right: none;
@@ -723,21 +723,6 @@ input{
     .menu ul li:hover{
          color: black;
     }
-    /* #hidefa{
-        display: block;
-    } 
-
-     #phoneview
-     {
-         background-color: cornflowerblue;
-         width: 100%;
-         font-size: 2vh;
-         text-align: center;
-         display: none;
-     }
-     #phoneview ul li{
-         list-style: none;
-     } */
     .nav-logo-img{
         display: none;
     }
@@ -919,7 +904,7 @@ input{
     .StudentImg {
         width: 100%;
         height: 35vh;
-        background-image: url(./Assets/jeshoots-com-LKREcvZeoJQ-unsplash copy (1).svg);
+        background-image: url('./Assets/jeshoots-com-LKREcvZeoJQ-unsplash copy (1).svg');
         background-size: 132% 124%;
     }
     .UpCommingEvnetContent {
